@@ -1,6 +1,6 @@
 FROM ubuntu:20.04
 
-MAINTAINER dana-ross <dana@danaross.dev>
+MAINTAINER kalemeow <kizzale@gmail.com>
 
 RUN apt-get update && apt install -y python curl logrotate patch
 RUN curl -L -o ./python-simpletal.deb http://mirrors.kernel.org/ubuntu/pool/universe/s/simpletal/python-simpletal_4.1-9_all.deb && dpkg -i ./python-simpletal.deb
